@@ -8,15 +8,6 @@ Features
 - Rule-based adaptive engine to change difficulty dynamically
 - Session summary with accuracy and average response time
 
-Files
-math-adaptive-prototype/ 
-├─ README.md 
-├─ requirements.txt 
-└─ src/ 
-  ├─ main.py 
-  ├─ puzzle_generator.py 
-  ├─ tracker.py 
-  └─ adaptive_engine.py
 
 Requirements
 - Python 3.8+
@@ -46,3 +37,4 @@ Thresholds:
 Score >= +4 -> increase level
 Score <= -4 -> decrease level
 Score reset to 0 after a level change
+
